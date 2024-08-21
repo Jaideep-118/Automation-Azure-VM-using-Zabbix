@@ -1,0 +1,4 @@
+#!/bin/bash
+RESOURCE_GROUP="ZABBIX_TEST_RG"
+VM_NAME="Zabbix-Agent-VM"
+az vm start --resource-group $RESOURCE_GROUP --name $VM_NAME
